@@ -749,6 +749,12 @@ let fotos=[
 ];
 
 
+// Precargar imágenes
+fotos.forEach((foto)=>{
+    let img = new Image();
+    img.src = foto;
+});
+
 let frases=[
 
 "Me hace muy feliz el tenerte a mi lado ❤️",
