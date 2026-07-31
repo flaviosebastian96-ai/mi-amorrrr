@@ -556,7 +556,7 @@ presiona aquí mi niña  📸
 <div class="card">
 
 
-<h1>
+<h1 id="tituloFoto">
 Me encantas mucho ❤️
 </h1>
 
@@ -754,7 +754,18 @@ let frases=[
 
 "Gracias por cada momento bonito que hemos compartido 💕",
 
-"Espero que sigamos llenando nuestra historia con bonitos recuerdos 😻"
+"Nunca olvides lo mucho que te quiero y lo importante que eres para mí 😻"
+
+];
+
+
+let titulos=[
+
+"Me encantas mucho ❤️",
+
+"Cada día me enamoras más 🥹",
+
+"Eres mi persona favorita ❤️"
 
 ];
 
@@ -808,6 +819,9 @@ document.getElementById("imagen")
 
 document.getElementById("frase")
 .textContent=frases[posicion];
+
+document.getElementById("tituloFoto")
+.textContent=titulos[posicion];
 
 
 
